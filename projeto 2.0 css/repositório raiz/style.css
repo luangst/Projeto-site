@@ -1,0 +1,203 @@
+/*Para chamar classes usa o . , para id usa a #*/
+/*Página Inicial*/
+
+body{
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#sla{
+    background-color:rgba(79, 17, 17, 0.746) ;
+}
+#sla2{
+    background-color:rgba(79, 17, 17, 0.623) ;
+    font-weight: bold;
+}
+header{
+    background-color:rgba(94, 12, 12, 0.457) ;
+    font-size: large;
+
+}
+#conteudo{
+    background-color:rgba(62, 6, 6, 0.442) ;
+    font-size:medium;
+    color:black;
+}
+.article{
+    background-color:rgba(79, 17, 17, 0.474) ;
+    font-weight: bold;
+    color:black;
+    display:inline;
+}
+img.imagem {
+    border: 5px ;  /* Borda normal */
+    border-radius: 10px;      /* Arredondando os cantos da borda */
+    width: 150px;
+}
+
+/*Ponto extra*/
+.imgCasa{
+    width: 40px;
+}
+
+/*Procurei no google*/
+/* Estilo do contêiner da barra de pesquisa */
+.search-counteiner{
+    text-align: center;
+    margin-top: 50px;
+}
+/* Estilos para o campo de pesquisa */
+input[type="search"] {
+    padding: 10px;
+    font-size: 16px;
+    width: 250px;
+    border: 2px solid #ccc;
+    border-radius: 20px;
+    outline: none;
+    transition: border-color 0.3s;
+}
+/* Estilos do botão de pesquisa */
+button {
+    padding: 10px 15px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+button:hover {
+    background-color: #575757;
+}
+/* Foco no campo de pesquisa */
+input[type="search"]:focus {
+    border-color: #333;
+}
+
+/*Menu*/
+.article{ 
+    display: block;
+}
+.article a{
+    font-size: 18px;
+    text-decoration: none;
+    margin: 0 46px;
+}
+.article ol{
+    padding: 0px;
+    margin:0px;
+    list-style: none;
+}
+.article ul li{
+    display:inline;
+}
+.article ul li a{
+padding: 10px 20px;
+}
+
+/*Mudança de cor dos links*/
+a:link{/*link ainda nao visitado*/
+    color: rgba(13, 13, 221, 0.996);
+}
+a:visited{/*link ja visistado*/
+    color:rgb(70, 3, 134)
+}
+a:hover{/*Altera pelo cursor do mouse*/
+    color:rgb(43, 9, 169);
+}
+a:focus{/*link apertar na pagina e tab*/
+   color:green
+}
+a:active{/*Altera cor quando for clicado*/
+    color: red;
+}   
+
+/*Página do primeiro Bug*/
+#titleBug{
+     background-color: rgba(152, 95, 10, 0.784);
+}
+body#primeiro{
+     background-color: rgba(237, 172, 88, 0.917); 
+}
+footer#primeiro{
+    background-color: rgba(152, 95, 10, 0.784);
+}
+img.img1 {
+    border: 5px ;  /* Borda normal */
+    border-radius: 10px;      /* Arredondando os cantos da borda */
+    width: 150px;
+}
+a#refBug{
+    font-weight: bold;
+}
+
+/*Página do windows*/
+#nomewindows{
+    background-color: rgb(94, 203, 239);
+}
+body#segundo{
+    background-color:lightblue;
+}
+footer#segundo{
+    background-color: rgb(94, 203, 239);
+}
+img.img2{
+    border: 5px ;/* Borda normal */
+    border-radius: 10px;/* Arredondando borda */
+    width: 150px;
+}
+a#refWi{
+    font-weight: bold;
+}
+
+/*Página Java*/ /*Tabela*/
+#nomeJava{
+    background-color: burlywood;
+}
+body#terceiro{
+    background-color: rgb(180, 148, 107);
+}
+#tabelaNome{
+    background-color: burlywood;
+    font-weight: bold;
+    color: black ;
+}
+table{
+    border: 2px solid black;  
+    border-collapse: collapse;
+}
+img.img3{
+    border: 5px ;/* Borda normal */
+    border-radius: 10px;/* Arredondando borda */
+}
+a#refJava{
+    font-weight: bold;
+}
+
+/*Formulário*/
+#bodyForm{
+    background-color:rgba(79, 17, 17, 0.746) ;
+}
+.text{
+    font-weight: bold;
+
+}
+#texto{
+    font-weight: bold;
+}
+/* Estilizando a textarea */
+textarea {
+    width: 40%;  
+    padding: 12px;  
+    font-size: 16px; 
+    border: 2px solid #ccc;  
+    border-radius: 8px; 
+    background-color:whitesmoke; 
+    color: #333;  
+}
+img.imf{
+    border: 5px ;/* Borda normal */
+    border-radius: 10px;/* Arredondando borda */
+    width: 150px;
+}
+a#refForm{
+    font-weight: bold;
+}
